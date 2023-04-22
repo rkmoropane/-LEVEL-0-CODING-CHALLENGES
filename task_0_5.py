@@ -4,4 +4,5 @@ def area_of_triangle(side_1: int, side_2: int, side_3: int):
     return total_area
 
 
-print(area_of_triangle(7, 6, 8))
+if __name__ == "__main__":
+    print(area_of_triangle(7, 6, 8))
