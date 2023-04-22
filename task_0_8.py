@@ -8,6 +8,7 @@ def convert_minutes_to_hours_and_minutes(number):
     return result
 
 
-print(convert_minutes_to_hours_and_minutes(61))
-print(convert_minutes_to_hours_and_minutes(121))
-print(convert_minutes_to_hours_and_minutes(31))
+if __name__ == "__main__":
+    print(convert_minutes_to_hours_and_minutes(71))
+    print(convert_minutes_to_hours_and_minutes(133))
+    print(convert_minutes_to_hours_and_minutes(31))
