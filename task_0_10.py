@@ -12,4 +12,5 @@ def find_common_letters(string_1, string_2):
     print(f"Common letters: {common_letters}")
 
 
-find_common_letters("house", "computers")
+if __name__ == "__main__":
+    find_common_letters("house", "computers")
