@@ -11,4 +11,4 @@ def convert_minutes_to_hours_and_minutes(number):
 if __name__ == "__main__":
     print(convert_minutes_to_hours_and_minutes(71))
     print(convert_minutes_to_hours_and_minutes(133))
-    print(convert_minutes_to_hours_and_minutes(31))
+    print(convert_minutes_to_hours_and_minutes(30))
