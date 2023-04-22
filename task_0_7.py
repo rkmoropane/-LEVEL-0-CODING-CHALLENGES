@@ -8,5 +8,6 @@ def fahrenheit_to_celsius(temperature):
     return celsius
 
 
-print(celsius_to_fahrenheit(37))
-print(fahrenheit_to_celsius(90))
+if __name__ == "__main__":
+    print(celsius_to_fahrenheit(37))
+    print(fahrenheit_to_celsius(98))
