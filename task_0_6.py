@@ -1,4 +1,4 @@
-def maximum(*numbers: int):
+def maximum(*numbers):
     max_number = numbers[0]
     for number in numbers[1:]:
         if number > max_number:
