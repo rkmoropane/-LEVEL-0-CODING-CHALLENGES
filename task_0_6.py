@@ -1,10 +1,9 @@
-def maximum(number_1, number_2, number_3):
-    max_number = number_1
-    if number_2 > max_number:
-        max_number = number_2
-    if number_3 > max_number:
-        max_number = number_3
+def maximum(*numbers: int):
+    max_number = numbers[0]
+    for number in numbers:
+        if number > max_number:
+            max_number = number
     return max_number
 
 
-print(maximum(13, 8, 9))
+print(maximum(1, 22, 3, 2))
