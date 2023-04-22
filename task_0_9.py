@@ -12,4 +12,5 @@ def find_vowels(string):
     print(f"Vowels: {vowels_found}")
 
 
-find_vowels("Umuzi")
+if __name__ == "__main__":
+    find_vowels("Umuzi")
