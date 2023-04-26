@@ -61,7 +61,7 @@ Problem:
 - To create a function that takes in a string and then prints out all the vowels in the string. The following should work:
 ```
  Input: "Umuzi", Output: Vowels: u, i
- ```
+```
 
  ### Task 0.10
 Problem:
