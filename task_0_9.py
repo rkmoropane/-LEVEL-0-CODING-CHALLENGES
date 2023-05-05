@@ -4,10 +4,10 @@ def find_vowels(string):
     vowels = "aeiou"
     for letter in string:
         if letter in vowels and letter not in vowels_found:
-                vowels_found.append(letter)
+            vowels_found.append(letter)
 
-    vowels_found = ", ".join(vowels_found)
-    print(f"Vowels: {vowels_found}")
+    vowels_found_string = ", ".join(vowels_found)
+    print(f"Vowels: {vowels_found_string}")
 
 
 if __name__ == "__main__":
